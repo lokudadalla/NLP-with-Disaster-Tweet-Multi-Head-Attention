@@ -37,5 +37,18 @@
     <p>
         The function creates an input layer and an embedding layer, followed by multi-head attention layers, which allow the model to focus on different parts of the input sequence simultaneously. This is crucial for capturing contextual relationships in the text. Layer normalization and fully connected layers with dropout and L2 regularization are added to enhance generalization and prevent overfitting. The model is finalized with a global max pooling layer and a dense output layer with a softmax activation function, suitable for classification tasks. Training is performed with early stopping to avoid overfitting, using the training set for learning and the validation set for performance evaluation.
     </p>
+<h2>Resources</h2>
+<p>
+        For more information about multi-head attention and its applications in neural networks, you can visit this
+        <a href="https://arxiv.org/pdf/1706.03762v7" target="_blank">paper on Attention Is All You Need</a>. This paper introduces the concept of multi-head attention and explains how it improves the model's ability to focus on different parts of the input sequence simultaneously.
+</p>
+<p>
+    <a href="https://storrs.io/multihead-attention/" target="_blank">multi-head attention 1</a>
+</p>
+<p>
+     <a href="https://storrs.io/attention/" target="_blank">multi-head attention 2</a>
+</p>
+
+    
 </body>
 </html>
